@@ -6,7 +6,7 @@
 
 .bold{ font-weight: bolder;}
 
-#black-border{border: 5px solid black;}
+#black-border{border: 2px solid black;}
 
 #menu{
     border-radius: 8px; 
@@ -14,5 +14,15 @@
     box-shadow: 2px 2px black; 
     border:1px solid black;
 }
+
+.charbox{
+    height: 600px;
+    width: 500px;
+    background-color: rgb(196, 196, 196);
+    padding: 3px;
+    border: 3px solid rgb(173, 0, 0);
+}
+
+
 
 *{font-family: Verdana, Geneva, Tahoma, sans-serif;}
