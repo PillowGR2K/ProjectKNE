@@ -1,3 +1,3 @@
 Site in development for the campaign of KNE.
 
-Baby steps.
+Baby steps and slowly getting there Lewis.
