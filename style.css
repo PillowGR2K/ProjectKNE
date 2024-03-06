@@ -5,3 +5,11 @@
 .center{
   text-align: center;
 }
+
+.bold{
+  font-weight: bolder;
+}
+
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
