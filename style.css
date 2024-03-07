@@ -2,7 +2,25 @@
 
 .center-img{display: block; margin-left: auto; margin-right: auto;}
 
-.bold{ font-weight: bold;}
+.bold{font-weight: bold;}
+
+h1{
+    font-family: Cinzel Decorative;
+    color: firebrick;
+    font-weight: lighter;
+    text-shadow: 0 0 3px transparent, 0 0 5px rgba(0,0,0,.95);
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+h2{
+    font-family: Byzantine-Normal;
+    color: firebrick;
+    font-weight: lighter;
+    text-shadow: 0 0 3px transparent, 0 0 5px rgba(0,0,0,.95);
+    font-size: 2rem;
+    line-height: 1.2;
+}
 
 #black-border{border: 2px solid black;}
 
@@ -15,7 +33,6 @@
     margin-right: 50px;
     display: inline-table;
     margin-bottom: 20px;
-    
 }
 
 .charbox:hover{
@@ -55,4 +72,10 @@
     padding: 9px;
 }
 
-*{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+#divcolorbg{}
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*background: #4e4e4e!important;*/
