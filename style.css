@@ -4,6 +4,10 @@
 
 .bold{font-weight: bold;}
 
+body{
+    background-color: #ff880073;
+}
+
 h1{
     font-family: Cinzel Decorative;
     color: firebrick;
