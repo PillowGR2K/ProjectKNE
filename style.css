@@ -7,8 +7,8 @@
 h1{
     font-family: Cinzel Decorative;
     color: firebrick;
-    font-weight: lighter;
-    text-shadow: 0 0 3px transparent, 0 0 5px rgba(0,0,0,.95);
+    font-weight: light;
+    text-shadow: 0 0 3px transparent, 0 0 10px rgba(0,0,0,.95);
     font-size: 2rem;
     line-height: 1.2;
 }
@@ -17,8 +17,17 @@ h2{
     font-family: Byzantine-Normal;
     color: firebrick;
     font-weight: lighter;
-    text-shadow: 0 0 3px transparent, 0 0 5px rgba(0,0,0,.95);
+    text-shadow: 0 0 3px transparent, 0 0 2.5px rgba(0,0,0,.95);
     font-size: 2rem;
+    line-height: 1.2;
+}
+
+h4{
+    font-family: Cinzel Decorative;
+    color: firebrick;
+    font-weight: light;
+    text-shadow: 0 0 3px transparent, 0 0 1.5px rgba(0,0,0,.95);
+    font-size: 1.1rem;
     line-height: 1.2;
 }
 
@@ -62,6 +71,7 @@ h2{
     position: relative;
     transition-property: background-color;
     transition-duration: 0.4s;
+    text-shadow: 0 0 0px;
 }
 
 .button:hover{
@@ -71,8 +81,6 @@ h2{
     transition-duration: 0.4s;
     padding: 9px;
 }
-
-#divcolorbg{}
 
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
