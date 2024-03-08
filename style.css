@@ -10,7 +10,10 @@ a{text-decoration: none;}
 
 p{text-align: left;}
 
-li{text-align: left;}
+li{
+    text-align: left;
+    font-size: 13px;
+}
 
 .menu{
     display: flex;
@@ -25,16 +28,10 @@ li{text-align: left;}
 }
 
 .menutag{
-    flex-direction: row-reverse;
     font-size: large;
-    line-height: 1rem;
-    align-items: center;
     min-width: 120px;
-    justify-content: space-between;
     transition: all 80ms ease;
     padding: 1ch;
-    box-sizing: border-box;
-    place-items: center;
     color: firebrick;
 
     &.active{
@@ -43,7 +40,7 @@ li{text-align: left;}
     }
 
     &:not(.active):hover{
-        color: rgba(255, 0, 0, 0.89);
+        color: rgba(255, 0, 0, 0.829);
     }
 }
 
