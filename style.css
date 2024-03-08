@@ -33,6 +33,7 @@ li{
     transition: all 80ms ease;
     padding: 1ch;
     color: firebrick;
+    margin:auto;
 
     &.active{
         color: firebrick;
