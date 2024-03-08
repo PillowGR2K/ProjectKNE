@@ -8,6 +8,14 @@ body{
     background-color: #ff880073;
 }
 
+hr{
+    height: 4px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right ,firebrick, gray);
+} 
+
+
 h1{
     font-family: Cinzel Decorative;
     color: firebrick;
