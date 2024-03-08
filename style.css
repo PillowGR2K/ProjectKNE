@@ -5,11 +5,13 @@
 .bold{font-weight: bold;}
 
 nav{
-    background-color: ;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 body{
     background-color: #ff880073;
+    margin: 0;
+    padding: 0;
 }
 
 hr{
