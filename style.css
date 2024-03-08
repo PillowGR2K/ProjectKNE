@@ -15,7 +15,7 @@ a{text-decoration: none;}
     background-image: linear-gradient(rgb(48, 48, 48) 13%, rgb(30, 30, 30) 40%, #0c0d11 86%);
     color: firebrick;
     cursor: pointer;
-    text-shadow: 0 -1px 0 black;;
+    text-shadow: 0 -2px 0 black;;
     box-shadow: 1px 2px 4px firebrick, 0 4px 12px rgb(169, 169, 169);
 }
 
@@ -33,15 +33,15 @@ a{text-decoration: none;}
 
     &.active{
         color: firebrick;
-        text-shadow: 0 0 3px firebrick;
+        text-shadow: 0 0 3px black;
     }
 
     &:not(.active):hover{
-        color: darkgrey;
+        color: rgba(255, 0, 0, 0.89);
     }
 
     &:not(:first-of-type){
-        border-left: 2px solid grey;
+        border-left: 2px solid black;
     }
 
     &:not(:last-of-type){
