@@ -4,6 +4,8 @@
 
 .bold{font-weight: bold;}
 
+a{text-decoration: none;}
+
 nav{
     background-color: rgba(0, 0, 0, 0);
 }
