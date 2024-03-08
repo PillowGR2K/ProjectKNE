@@ -44,20 +44,13 @@ li{text-align: left;}
     &:not(.active):hover{
         color: rgba(255, 0, 0, 0.89);
     }
-
-    &:not(:first-of-type){
-        border-left: 2px solid black;
-    }
-
-    &:not(:last-of-type){
-        border-right: 0.1rem solid black;
-    }
 }
 
 body{
     background-color: #ff880073;
-    margin: 0px;
+    margin-left: 0px;
     padding: 0px;
+    margin: 0px;
 }
 
 hr{
