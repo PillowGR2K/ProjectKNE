@@ -15,7 +15,8 @@ li{text-align: left;}
 .menu{
     display: flex;
     background-color: #222;
-    border-radius: 6px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     background-image: linear-gradient(rgb(48, 48, 48) 13%, rgb(30, 30, 30) 40%, #0c0d11 86%);
     color: firebrick;
     cursor: pointer;
