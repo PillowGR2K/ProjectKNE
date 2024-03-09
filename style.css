@@ -4,7 +4,10 @@
 
 .bold{font-weight: bold;}
 
-#black-border{border: 2px solid black;}
+#black-border{
+    border: 2px solid black;
+    border-radius: 50px;
+}
 
 a{text-decoration: none;}
 
@@ -88,19 +91,6 @@ h4{
     line-height: 1.2;
 }
 
-.charbox{
-    height: 620px;
-    width: 350px;
-    background-color: lightgray;
-    padding: 10px;
-    border: 3px solid firebrick;
-    margin-right: 50px;
-    display: inline-table;
-    margin-bottom: 20px;
-    border-radius: 20px;
-    font-size: small;
-}
-
 .rulebox{
     height: 500px;
     width: 340px;
@@ -138,35 +128,38 @@ h4{
 .flipcard{
     perspective: 1000px;
     background-color: transparent;
-    margin-top: 20px;
-    height: 620px;
+    height: 600px;
     width: 350px;
     display: inline-block;
     margin-left: 80px;
     margin-right: 50px;
     margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: small;
 }
 
 .flipcard-inner{
     position: relative;
+    width: 100%;
+    height: 100%;
     transition: transform 0.6s;
     transform-style: preserve-3d;
+    background-color: lightgray;
+    padding: 10px;
+    border: 3px solid firebrick;
+    border-radius: 20px;
 }
 
 .flipcard:hover .flipcard-inner{transform: rotateY(180deg);}
 
 .flipcard-front, .flipcard-back{
-    position: absolute;
-    -webkit-backface-visibility:hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
     backface-visibility: hidden;
 }
 
 .flipcard-back{
-    transform: rotateY(180deg);
-    background-color: gray;
-}
-
-.charbox:hover{
     transform: rotateY(180deg);
 }
 
