@@ -127,7 +127,6 @@ h4{
 
 .flipcard{
     perspective: 1000px;
-    background-color: transparent;
     height: 600px;
     width: 350px;
     display: inline-block;
@@ -161,6 +160,7 @@ h4{
 
 .flipcard-back{
     transform: rotateY(180deg);
+    backface-visibility: hidden;
 }
 
 *{
