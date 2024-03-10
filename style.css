@@ -74,8 +74,8 @@
     display: inline-table;
     perspective: 1000px;
     height: 400px;
-    width: 330px;
-    margin-right: 85px;
+    width: 320px;
+    margin-right: 130px;
     margin-bottom: 150px;
     font-size: small;
 }
@@ -119,8 +119,8 @@
 .sitebg{
     display: float;
     background-color: #222;
-    margin-left: 220px;
-    margin-right: 220px;
+    margin-left: 180px;
+    margin-right: 180px;
     margin-top: 20px;
     margin-bottom: 180px;
     border: 1px solid firebrick;
