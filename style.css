@@ -59,8 +59,10 @@ body{
 hr{
     height: 4px;
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     background: linear-gradient(to right ,firebrick, gray);
+    margin-left: 30px;
+    margin-right: 30px;
 } 
 
 h1{
@@ -92,13 +94,13 @@ h4{
 }
 
 .rulebox{
+    display:inline-table;
     height: 500px;
     width: 340px;
-    background-color: lightgray;
+    background-color: rgba(211, 211, 211, 0.418);
     padding: 3px;
     border: 3px solid firebrick;
     margin-right: 50px;
-    display:inline-table;
 }
 
 .button{
@@ -123,13 +125,11 @@ h4{
     padding: 9px;
 }
 
-/*test.html content*/
-
 .flipcard{
+    display: inline-table;
     perspective: 1000px;
     height: 600px;
     width: 350px;
-    display: inline-block;
     margin-left: 80px;
     margin-right: 50px;
     margin-bottom: 50px;
@@ -161,6 +161,19 @@ h4{
 .flipcard-back{
     transform: rotateY(180deg);
     backface-visibility: hidden;
+}
+
+/*test.html content*/
+.sitebg{
+    display: float;
+    background-color: #222;
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    border: 2px solid firebrick;
+    border-radius: 20px;
+    padding: 50px;
 }
 
 *{
