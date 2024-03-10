@@ -1,22 +1,4 @@
-.center-text{text-align: center;}
-
-.center-img{display: block; margin-left: auto; margin-right: auto;}
-
-.bold{font-weight: bold;}
-
-#black-border{
-    border: 2px solid black;
-    border-radius: 50px;
-}
-
-a{text-decoration: none;}
-
-p{text-align: left;}
-
-li{
-    text-align: left;
-    font-size: 13px;
-}
+/* Navigation Bar design */
 
 .menu{
     display: flex;
@@ -29,6 +11,7 @@ li{
     text-shadow: 0 -2px 0 black;;
     box-shadow: 1px 2px 4px firebrick, 0 4px 12px rgb(169, 169, 169);
     justify-content:center;
+    margin-bottom: 30px;
 }
 
 .menutag{
@@ -49,59 +32,19 @@ li{
     }
 }
 
-body{
-    background-color: #ff880073;
-    margin-left: 0px;
-    padding: 0px;
-    margin: 0px;
-}
-
-hr{
-    height: 4px;
-    border: none;
-    border-radius: 20px;
-    background: linear-gradient(to right ,firebrick, gray);
-    margin-left: 30px;
-    margin-right: 30px;
-} 
-
-h1{
-    font-family: Cinzel Decorative;
-    color: firebrick;
-    font-weight: light;
-    text-shadow: 0 0 3px transparent, 0 0 10px rgba(0,0,0,.95);
-    font-size: 2rem;
-    line-height: 1.2;
-}
-
-h2{
-    font-family: Byzantine-Normal;
-    color: firebrick;
-    font-weight: lighter;
-    text-shadow: 0 0 3px transparent, 0 0 2.5px rgba(0,0,0,.95);
-    font-size: 2rem;
-    line-height: 1.2;
-    margin-bottom: 8px;
-}
-
-h4{
-    font-family: Cinzel Decorative;
-    color: firebrick;
-    font-weight: light;
-    text-shadow: 0 0 3px transparent, 0 0 1.5px rgba(0,0,0,.95);
-    font-size: 1.1rem;
-    line-height: 1.2;
-}
+/* Specific elements */
 
 .rulebox{
     display:inline-table;
     height: 500px;
     width: 340px;
-    background-color: rgba(211, 211, 211, 0.418);
+    background-color: rgba(255, 0, 0, 0.09);
     padding: 3px;
-    border: 3px solid firebrick;
+    border: 2px solid goldenrod;
     margin-right: 50px;
 }
+
+/* Button simple animation (expand) */
 
 .button{
     cursor: pointer;
@@ -125,15 +68,15 @@ h4{
     padding: 9px;
 }
 
+/* Make box flip */
+
 .flipcard{
     display: inline-table;
     perspective: 1000px;
     height: 600px;
     width: 350px;
-    margin-left: 80px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-right: 85px;
+    margin-bottom: 85px;
     font-size: small;
 }
 
@@ -163,19 +106,88 @@ h4{
     backface-visibility: hidden;
 }
 
-/*test.html content*/
+/* test.html content */
+
+/* Classes. ID# Multiuse */
+
+.center-text{text-align: center;}
+
+.center-img{display: block; margin-left: auto; margin-right: auto;}
+
+.bold{font-weight: bold;}
+
 .sitebg{
     display: float;
     background-color: #222;
     margin-left: 220px;
     margin-right: 220px;
-    margin-top: 60px;
+    margin-top: 20px;
     margin-bottom: 80px;
     border: 2px solid firebrick;
     border-radius: 20px;
     padding: 50px;
 }
 
+#black-border{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+/* General Changes */
+
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #ff880073;
+    margin-left: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+a{text-decoration: none;}
+
+p{text-align: left;}
+
+li{
+    text-align: left;
+    font-size: 13px;
+}
+
+h1{
+    font-family: Cinzel Decorative;
+    color: firebrick;
+    font-weight: light;
+    text-shadow: 0 0 3px transparent, 0 0 10px rgba(0,0,0,.95);
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+h2{
+    font-family: Byzantine-Normal;
+    color: firebrick;
+    font-weight: lighter;
+    text-shadow: 0 0 3px transparent, 0 0 2.5px rgba(0,0,0,.95);
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+
+h4{
+    font-family: Cinzel Decorative;
+    color: firebrick;
+    font-weight: light;
+    text-shadow: 0 0 3px transparent, 0 0 1.5px rgba(0,0,0,.95);
+    font-size: 1.1rem;
+    line-height: 1.2;
+}
+
+hr{
+    height: 4px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(to right ,firebrick, gray);
+    margin-left: 30px;
+    margin-right: 30px;
 }
