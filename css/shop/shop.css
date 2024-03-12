@@ -4,9 +4,55 @@
     border: 2px solid firebrick;
     background-color: rgb(210, 192, 158);
     padding: 30px;
-    width: 800px;
+    width: 1200px;
     height: 500px;
-    gap: 20px;
+}
+
+.itemarea{
+    display: grid;
+    grid-template-columns: repeat(6, 84px);
+    grid-template-rows: 83px repeat(4, 84px);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+    
+    .it1 { grid-area: 1 / 1 / 2 / 2; }
+    .it2 { grid-area: 1 / 2 / 2 / 3; }
+    .it3 { grid-area: 1 / 3 / 2 / 4; }
+    .it4 { grid-area: 1 / 4 / 2 / 5; }
+    .it5 { grid-area: 1 / 5 / 2 / 6; }
+    .it6 { grid-area: 1 / 6 / 2 / 7; }
+    .it7 { grid-area: 2 / 1 / 3 / 2; }
+    .it8 { grid-area: 2 / 2 / 3 / 3; }
+    .it9 { grid-area: 2 / 3 / 3 / 4; }
+    .it10 { grid-area: 2 / 4 / 3 / 5; }
+    .it11 { grid-area: 2 / 5 / 3 / 6; }
+    .it12 { grid-area: 2 / 6 / 3 / 7; }
+    .it13 { grid-area: 3 / 1 / 4 / 2; }
+    .it14 { grid-area: 3 / 2 / 4 / 3; }
+    .it15 { grid-area: 3 / 3 / 4 / 4; }
+    .it16 { grid-area: 3 / 4 / 4 / 5; }
+    .it17 { grid-area: 3 / 5 / 4 / 6; }
+    .it18 { grid-area: 3 / 6 / 4 / 7; }
+    .it19 { grid-area: 4 / 1 / 5 / 2; }
+    .it20 { grid-area: 4 / 2 / 5 / 3; }
+    .it21 { grid-area: 4 / 3 / 5 / 4; }
+    .it22 { grid-area: 4 / 4 / 5 / 5; }
+    .it23 { grid-area: 4 / 5 / 5 / 6; }
+    .it24 { grid-area: 4 / 6 / 5 / 7; }
+    .it25 { grid-area: 5 / 1 / 6 / 2; }
+    .it26 { grid-area: 5 / 2 / 6 / 3; }
+    .it27 { grid-area: 5 / 3 / 6 / 4; }
+    .it28 { grid-area: 5 / 4 / 6 / 5; }
+    .it29 { grid-area: 5 / 5 / 6 / 6; }
+    .it30 { grid-area: 5 / 6 / 6 / 7; }
+
+.placeholder{
+    display: inline;
+    margin-left: 160px;
+    background-color: red;
+    width: 100px;
+    height: 100px;
 }
 
 shopitem{
@@ -16,8 +62,8 @@ shopitem{
     justify-content: center;
     align-items: center;
     font-size: 14px;
-    height: 90px;
-    width: 90px;
+    height: 84px;
+    width: 84px;
     border-radius: 20px;
     border: 1px solid black;
     box-shadow: 0px 0px 6px firebrick, 0px 0px 12px rgb(169, 169, 169);

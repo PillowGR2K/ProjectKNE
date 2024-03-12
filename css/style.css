@@ -76,7 +76,7 @@
     padding: 9px;
 }
 
-/* Make box flip and character introduction*/
+/* Flipcard w/ character introduction*/
 
 .grid{
     display: grid;
@@ -99,7 +99,7 @@
 .flipcard{
     display: inline-table;
     perspective: 1000px;
-    height: 400px;
+    height: 300px;
     width: 320px;
     font-size: small;
 }
