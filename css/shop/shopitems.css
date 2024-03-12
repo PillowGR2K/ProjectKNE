@@ -42,7 +42,7 @@
     content: "The bag can hold up to 500 pounds, not exceeding a volume of 64 cubic feet.";
 }
 
-/* Upgrade Armor*/
+/* Upgrade EQ */
 
 #upgrade1armor::before{
     content: "+1 Armor";
@@ -67,3 +67,6 @@
 #adamantine +.description::before{
     content: "One of the strongest metals known to bypass even the hardest armors.";
 }
+
+/* Scrolls */
+
