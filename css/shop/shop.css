@@ -1,11 +1,12 @@
 .shopbox{
-    display: flexbox;
+    display: flex;
     border-radius: 10px;
     border: 2px solid firebrick;
     background-color: rgb(210, 192, 158);
     padding: 30px;
     width: 800px;
     height: 500px;
+    gap: 20px;
 }
 
 shopitem{
@@ -19,7 +20,7 @@ shopitem{
     width: 90px;
     border-radius: 20px;
     border: 1px solid black;
-    box-shadow: 0px 0px 4px firebrick, 0px 0px 12px rgb(169, 169, 169);
+    box-shadow: 0px 0px 6px firebrick, 0px 0px 12px rgb(169, 169, 169);
 }
 
 shopitem:hover{
@@ -35,7 +36,7 @@ shopitem .description{
 
 shopitem .description::before{
     opacity: 0;
-    transition: all 0.4s linear 0.7s;
+    transition: all 0.3s linear 0.5s;
 }
 
 shopitem .description:hover::before{

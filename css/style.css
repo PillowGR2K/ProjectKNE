@@ -144,9 +144,9 @@
     margin-right: 180px;
     margin-top: 20px;
     margin-bottom: 180px;
+    padding: 80px;
     border: 1px solid firebrick;
     border-radius: 15px;
-    padding: 80px;
     box-shadow: 0px 4px 12px firebrick, 0px 5px 32px rgb(169, 169, 169);
 }
 

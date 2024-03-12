@@ -1,7 +1,33 @@
-#nsmallhp::before{
+/* Health Potions */
+
+#smallhp::before{
     content: "Small Healing Potion";
 }
 
-#dsmallhp::before{
-    content: "Heal 2d4 + 2hp.";
+#smallhp +.description::before{
+    content: "Heal 2d4 + 2 HP. Use your bonus action to gain its effects, or use your action to restore the full dice amount.";
+}
+
+#greathp::before{
+    content: "Greater Healing Potion";
+}
+
+#greathp +.description::before{
+    content: "Heal 4d4 + 4 HP. Use your bonus action to gain its effects, or use your action to restore the full dice amount.";
+}
+
+#superhp::before{
+    content: "Superior Healing Potion";
+}
+
+#superhp +.description::before{
+    content: "Heal 8d4 + 8 HP. Use your bonus action to gain its effects, or use your action to restore the full dice amount.";
+}
+
+#supremehp::before{
+    content: "Supreme Healing Potion";
+}
+
+#supremehp +.description::before{
+    content: "Heal 10d4 + 20 HP. Use your bonus action to gain its effects, or use your action to restore the full dice amount.";
 }
