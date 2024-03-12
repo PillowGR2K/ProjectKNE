@@ -1,0 +1,51 @@
+.shopbox{
+    display: flexbox;
+    border-radius: 10px;
+    border: 2px solid firebrick;
+    background-color: rgb(210, 192, 158);
+    padding: 30px;
+    width: 800px;
+    height: 500px;
+}
+
+shopitem{
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    height: 90px;
+    width: 90px;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 4px firebrick, 0px 0px 12px rgb(169, 169, 169);
+}
+
+shopitem:hover{
+    transition-property: width;
+    transition-duration: 0.6s;
+    width: 220px;
+}
+
+shopitem .description{
+    display: none;
+    font-weight: normal;
+}
+
+shopitem .description::before{
+    opacity: 0;
+    transition: all 0.4s linear 0.7s;
+}
+
+shopitem .description:hover::before{
+    opacity: 1;
+}
+
+shopitem:hover .name{
+    display: none;
+}
+
+shopitem:hover .description{
+    display: flex;
+}
