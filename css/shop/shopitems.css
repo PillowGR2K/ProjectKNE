@@ -31,3 +31,39 @@
 #supremehp +.description::before{
     content: "Heal 10d4 + 20 HP. Use your bonus action to gain its effects, or use your action to restore the full dice amount.";
 }
+
+/*Uncommon Items*/
+
+#bagofholding::before{
+    content: "Bag of Holding";
+}
+
+#bagofholding +.description::before{
+    content: "The bag can hold up to 500 pounds, not exceeding a volume of 64 cubic feet.";
+}
+
+/* Upgrade Armor*/
+
+#upgrade1armor::before{
+    content: "+1 Armor";
+}
+
+#upgrade1armor +.description::before{
+    content: "Increase your armor's AC by 1.";
+}
+
+#upgrade1weapon::before{
+    content: "+1 Weapon";
+}
+
+#upgrade1weapon +.description::before{
+    content: "You have a +1 bonus to attack and damage rolls. Your weapon now deals magical damage.";
+}
+
+#adamantine::before{
+    content: "Adamantine";
+}
+
+#adamantine +.description::before{
+    content: "One of the strongest metals known to bypass even the hardest armors.";
+}
