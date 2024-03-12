@@ -76,15 +76,31 @@
     padding: 9px;
 }
 
-/* Make box flip */
+/* Make box flip and character introduction*/
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-column-gap: 140px;
+    grid-row-gap: 80px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    .div3 { grid-area: 1 / 3 / 2 / 4; }
+    .div4 { grid-area: 2 / 1 / 3 / 2; }
+    .div5 { grid-area: 2 / 2 / 3 / 3; }
+    .div6 { grid-area: 2 / 3 / 3 / 4; }
 
 .flipcard{
     display: inline-table;
     perspective: 1000px;
     height: 400px;
     width: 320px;
-    margin-right: 130px;
-    margin-bottom: 150px;
     font-size: small;
 }
 
@@ -95,7 +111,6 @@
     transition: transform 0.6s;
     transform-style: preserve-3d;
     background-color: lightgray;
-    padding: 10px;
     border: 3px solid firebrick;
     border-radius: 20px;
 }
@@ -131,7 +146,7 @@
     margin-bottom: 180px;
     border: 1px solid firebrick;
     border-radius: 15px;
-    padding: 50px;
+    padding: 80px;
     box-shadow: 0px 4px 12px firebrick, 0px 5px 32px rgb(169, 169, 169);
 }
 
@@ -179,7 +194,6 @@ h2{
     text-shadow: 0 0 3px transparent, 0 0 2.5px rgba(0,0,0,.95);
     font-size: 2rem;
     line-height: 1.2;
-    margin-bottom: 8px;
 }
 
 h4{
@@ -196,8 +210,8 @@ hr{
     border: none;
     border-radius: 20px;
     background: linear-gradient(to right ,firebrick, gray);
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 footer{

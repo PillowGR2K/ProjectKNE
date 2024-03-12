@@ -4,11 +4,4 @@
 
 #dsmallhp::before{
     content: "Heal 2d4 + 2hp.";
-    opacity: 0;
-    transition: all .3s linear 0s;
-}
-
-#dsmallhp:hover::before{
-    transition: all 0.5s linear .3s;
-    opacity: 1;
 }
