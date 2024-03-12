@@ -138,7 +138,7 @@
 .bold{font-weight: bold;}
 
 .sitebg{
-    display: float;
+    display: flex;
     background-color: #222;
     margin-left: 180px;
     margin-right: 180px;
