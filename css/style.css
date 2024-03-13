@@ -114,7 +114,7 @@ button:hover{
     border-radius: 20px;
 }
 
-.flipcard:hover .flipcard-inner{transform: rotateY(180deg);}
+.flipcard:hover .flipcard-inner{transform: rotateY(180deg); cursor: none;}
 
 .flipcard-front, .flipcard-back{
     position: relative;
