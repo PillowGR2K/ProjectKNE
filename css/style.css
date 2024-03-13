@@ -7,11 +7,11 @@
     border-bottom-right-radius: 15px;
     background-image: linear-gradient(rgb(48, 48, 48) 13%, rgb(30, 30, 30) 40%, #0c0d11 86%);
     color: firebrick;
-    cursor: pointer;
     text-shadow: 0 -2px 0 black;;
     box-shadow: 1px 2px 4px firebrick, 0 4px 12px rgb(169, 169, 169);
-    justify-content:center;
     margin-bottom: 30px;
+    justify-content:center;
+    cursor: pointer;
 }
 
 .menutag{
@@ -20,7 +20,6 @@
     transition: all 80ms ease;
     padding: 1ch;
     color: firebrick;
-    margin:auto;
 
     &.active{
         color: firebrick;
