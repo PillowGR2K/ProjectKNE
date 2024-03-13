@@ -53,7 +53,7 @@
 
 /* Button simple animation (expand) */
 
-.button{
+button{
     cursor: pointer;
     border: 2px solid black;
     border-radius: 10px;
@@ -67,7 +67,7 @@
     text-shadow: 0 0 0px;
 }
 
-.button:hover{
+button:hover{
     color: darkgrey;
     background-color: firebrick;
     transition-property: padding,background-color;
